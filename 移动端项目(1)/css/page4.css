@@ -1,0 +1,146 @@
+    *{
+            margin: 0;
+            padding: 0;
+        }
+      html,body{
+          height: 100%;
+      }
+      .swiper-container{
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+      }
+      #swiper-slide3{
+          width: 100%;
+          height: 100%;
+          background: url(images/bg-11.jpeg) no-repeat;
+          background-size: cover;
+      }
+        #swiper-slide4{
+            width: 100%;
+            height: 100%;
+            background: url(images/bg-12.jpg) no-repeat;
+            background-size: cover;
+        }
+        .ghost{
+            margin-top: 200px;
+            margin-left:200px;
+            width: 156px;
+            height: 132px;
+            background: url(images/ghost.png) no-repeat;
+            background-position: -672px -352px;
+            background-size:1000px 992px;
+
+        }
+        .ghost:hover{
+            margin-top: 200px;
+            margin-left:200px;
+            width: 365px;
+            height: 285px;
+            background: url(images/ghost.png) no-repeat;
+            background-position: -2138px -1390px;
+            background-size:2500px 2480px;
+
+        }
+        .pumpkin{
+            float:left;
+            color:#ffffff;
+            font-size: 45px;
+            margin-top:100px;
+            margin-left:100px;
+        }
+        .Ahriman{
+            float: left;
+            margin-top: 150px;
+            margin-left:150px;
+            transform: scale(2);
+            transition:all 6s ease 0s;
+
+        }
+        
+        .cross{
+            float:left;
+            margin-left:150px;
+            margin-top: 400px;
+            width: 310px;
+            height: 370px;
+            background: url(images/ghost.png) no-repeat;
+            background-position: -880px -1370px;
+            background-size:2500px 2480px;
+        }
+        .zj{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 200px;
+            height: 300px;
+            background: url(images/zj.png) no-repeat;
+            background-size: cover;
+        }
+        .bianfu1{
+            float:left;
+            margin-top: 300px;
+            margin-left: 700px;
+            width: 236px;
+            height: 120px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -856px -28px;
+            background-size: 2048px 428px;
+        }
+        .bianfu2{
+            float:left;
+            margin-left: 100px;
+            width: 230px;
+            height: 106px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -1208px -32px;
+            background-size: 2048px 428px;
+        }
+        .bianfu3{
+            float:left;
+            margin-left: 650px;
+            width: 230px;
+            height: 70px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -1544px -300px;
+            background-size: 2048px 428px;
+        }
+        .bianfu4{
+            float:left;
+            margin-top: 100px;
+            margin-left: 400px;
+            width: 130px;
+            height: 100px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -1126px -234px;
+            background-size: 2048px 428px;
+        }
+        .bianfu5{
+            float:left;
+            margin-left: -300px;
+            width:100px;
+            height: 66px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -1028px -234px;
+            background-size: 2048px 428px;
+        }
+        .bianfu6{
+            float:left;
+            margin-top: 100px;
+            margin-left: 100px;
+            width: 118px;
+            height: 74px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -330px -125px;
+            background-size: 2048px 428px;
+        }
+        .bianfu7{
+            float:left;
+            margin-top: -200px;
+            margin-left: 400px;
+            width: 226px;
+            height: 62px;
+            background:url(images/bianfu.png) no-repeat;
+            background-position: -768px -302px;
+            background-size: 2048px 428px;
+        }

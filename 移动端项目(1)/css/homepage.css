@@ -1,0 +1,137 @@
+@media screen and (min-width:400px){
+	html{
+		font-size: 16px;
+	}
+}
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width: 100%;
+	height:100%;
+}
+.swiper-container{
+		height: 100%;
+}
+.page1{
+	width: 100%;
+	height: 100%;
+	background:url(../images/1.jpg) no-repeat;
+	background-size:cover;
+}
+.caption{
+	width:15rem;
+	height: 10rem;
+	position:relative;
+	margin:0 auto ;
+}
+.caption > b{
+	font-size:3.75rem;
+	color:red;
+	position:absolute;
+	top:6.25rem;
+}
+.caption > .wan{
+	left:0rem;
+	animation: wan 3s ease 0s forwards;
+}
+@-webkit-keyframes wan{
+				0%{
+					transform: rotate(180deg) translateX(-1000px)
+					
+				}
+				100%{
+					transform: rotate(0deg) translateX(0rem);
+				}
+			}
+.caption > .sheng{
+	left:5rem;
+	animation: sheng 2s ease 0s forwards;
+}
+@-webkit-keyframes sheng{
+	from{
+		transform:translateY(-1500px)
+	}
+	to{
+		transform:translateY(0px)
+	}
+}
+.caption > .jie{
+	left:10rem;
+	animation: jie 3s ease 0s forwards;
+}
+@-webkit-keyframes jie{
+	from{
+		transform: rotate(0deg) translateX(180.75rem);
+	}
+	to{
+		transform: rotate(360deg) translateX(0px);
+	}
+}
+.psychic{
+	position:relative;
+}
+.psychic > img{
+	width:8.8125rem;
+	height: 6.8125rem;
+	position:absolute;
+	top:0;
+	left:-9.8rem;
+	animation: psychic 15s ease 3s infinite;
+}
+@-webkit-keyframes psychic{
+	0%{
+		top:0px;
+		left:-9.7rem;
+	}
+	10%{
+		top:5.8rem;
+	}
+	20%{
+		top:0rem;
+	}
+	to{
+		top:0px;
+		left:70rem;
+	}
+}
+.children{
+	width: 100%;
+	height: 30rem;
+	position:relative;
+}
+.children > img{
+	width:4.8125rem;
+	height: 4.8125rem;
+	position:absolute;
+	bottom:0px;
+	right:-5.8rem;
+	animation: run 15s ease 0s infinite;
+}
+.children > .ghost1{
+	width:10.8125rem;
+	height: 10.8125rem;
+	position:absolute;
+	bottom:0rem;
+	right:0;
+	animation: run1 15s ease 0s infinite;
+}
+@-webkit-keyframes run{
+	from{
+		right:-35rem;
+		transform: rotate(0deg);
+	}
+	to{
+		right:70rem;
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes run1{
+	from{
+		right:-50rem;
+	}
+	to{
+		right:70rem;
+	}
+}
